@@ -1,18 +1,37 @@
 class Person
-  def name= (Ada)
-    @name = "Ada"
-  def job= (teacher)
-    @name = "teacher"
+  
+  def name=(name)
+    @name = name
   end
   
   def name
     @name
   end
-  def job
+
+  def job=(job)
+    @job = job
+  end 
+
+  def job 
     @job
-  end
+  end 
+  
 end
 
-ada= Person.new 
-ada.name
-ada.job
+# Notes and practice 
+
+class Record
+  
+  def genre=(records_genre)
+    @grenre = records_genre
+  end 
+  
+  def genre
+    @genre 
+  end 
+  
+end 
+
+beasty_boys = Record.new
+beasty_boys.genre = "Rap and R&B"
+beasty_boys.gerne 
